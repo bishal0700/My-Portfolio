@@ -61,8 +61,8 @@ export default function About() {
               <h3 className="aside-title">Languages</h3>
               <div className="lang-list">
                 {[
+                  { lang: "English", level: "C2", dots: 4 },
                   { lang: "Bengali", level: "Mother Tongue", dots: 5 },
-                  { lang: "English", level: "C2", dots: 5 },
                   { lang: "Hindi", level: "C2", dots: 4 },
                 ].map(({ lang, level, dots }) => (
                   <div key={lang} className="lang-item">
